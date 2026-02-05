@@ -1,0 +1,9 @@
+langchain
+langchain-google-genai
+langchain-community
+sqlalchemy
+streamlit
+python-dotenv
+psycopg2-binary
+pymysql
+cryptography

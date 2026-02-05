@@ -1,0 +1,10 @@
+# Variables de entorno (Contiene llaves de API y contraseñas)
+.env
+
+# Entorno virtual de Python
+venv/
+env/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
