@@ -26,3 +26,7 @@ Lo bacano de hacer estos proyectos es la satisfación y aprendizaje de que nunca
 ```bash
 git clone [https://github.com/tu-usuario/Sql-analyst-IA.git](https://github.com/tu-usuario/Sql-analyst-IA.git)
 cd Sql-analyst-IA
+python -m venv venv
+# En Windows:
+.\venv\Scripts\activate
+
