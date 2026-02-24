@@ -1,8 +1,20 @@
 # 🤖 AI SQL Analyst - Consultas en Lenguaje Natural con Gemini 2.0
 
-Este proyecto es un asistente inteligente capaz de interactuar con bases de datos SQL (MySQL) utilizando lenguaje natural. Construido con **LangChain** y **Google Gemini 2.0 Flash**, permite a usuarios no técnicos obtener insights, métricas y reportes complejos sin escribir una sola línea de SQL.
+La implementación de este agente de IA no es solo un ejercicio técnico, sino una solución de negocio que resuelve los siguientes puntos de dolor:
 
-Lo bacano de hacer estos proyectos es la satisfación y aprendizaje de que nunca paramos de aprender.. 
+Democratización de los Datos: Permite que personal no técnico (Ventas, RRHH, Gerencia) obtenga insights de la base de datos sin depender de un analista o desarrollador para escribir queries SQL.
+
+Reducción de Latencia en Reportes: Consultas que antes tomaban minutos en ser redactadas y ejecutadas se resuelven en segundos, acelerando la toma de decisiones basada en datos.
+
+Eficiencia Operativa: Libera al equipo de ingeniería de tareas repetitivas de extracción de datos, permitiéndoles enfocarse en el desarrollo de funcionalidades core.
+
+Escalabilidad con Gemini 2.0 Flash: El uso de este modelo específico garantiza una respuesta casi instantánea y un costo operativo significativamente bajo (token-efficient) en comparación con modelos más grandes, sin sacrificar precisión.
+
+Prevención de Errores Humanos: Al automatizar la generación de joins y filtros complejos, se reduce el riesgo de errores en la sintaxis SQL que podrían entregar datos incorrectos. 
+
+💡 Casos de Uso Reales
+- Soporte Tecnico: "¿Cuáles son los 5 productos con más reportes de falla este mes?"
+- Recursos Humanos: "¿Generame una tabla de los desarrolladores que ingresaron en el mes de Enero a marzo?".
 
 
 
@@ -29,4 +41,6 @@ cd Sql-analyst-IA
 python -m venv venv
 # En Windows:
 .\venv\Scripts\activate
+
+Autor: Yezid Perez - Est Ingenieria de Sistemas.
 
